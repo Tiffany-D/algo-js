@@ -22,10 +22,24 @@
 //[100, 101, 102] => 101
 
 //let arr = [1, 2, 3, 4, 5];
-//console.log(arr[2]);
 
-//let arrX = [100, 101, 102];
-//console.log(arrX[101]);
+//let average =0;
+
+//for(i=0; i< arr.length; i++){
+    
+    //average += arr[i];  
+//}
+//let mean = average/arr.length;
+ //console.log(mean);
+
+let arrX = [100, 101, 102];
+
+let number =0;
+for(i=0; i<arr.lenght;i++){
+    number+= arr[i];
+}
+let mean= number/arr.lenght;
+console.log(mean);
 
 //Exercise 3.3
 

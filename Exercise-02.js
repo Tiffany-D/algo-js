@@ -47,9 +47,9 @@
 // Bonus 2: be polite in the error messages. (facultative)
 
 // const readlineSync = require("readline-sync");
-// let minAge = readlineSync.question("Can you give me a number ?");
-// let maxAge = readlineSync.question("Can you give me another number ?");
-// let currentAge = readlineSync.question("Another one?");
+// let minAge = readlineSync.question("Enter a minimum age?");
+// let maxAge = readlineSync.question("Enter amaximum age?");
+// let currentAge = readlineSync.question("Enter current age?");
 
 // if ((currentAge > minAge) && (currentAge < maxAge)) {
     // console.log(currentAge);
@@ -74,14 +74,14 @@
 //}
 
 
-//let x = 1;
-//while (x <= 100) {
+//let x = 0;
+//while (x <= 200) {
     //console.log(x);
-    //x += 1;
+    //x += 2;
 //}
 
 
-//for (let x = 1; x <= 50; x += 1){
+//for (let x = 0; x <= 100; x += 2){
     //console.log(x);
 
 //}
@@ -114,7 +114,19 @@
 //Make a program that asks the favorite number of the user. If that number is anything other than 42 display "Are you sure?" and ask again. (This program should never end as long as the user didn't chose 42).
 //const readlineSync = require("readline-sync");
 //let question = readlineSync.question("What's your favourite number?");
-//let sure = readlineSync.question("Are you sure?");
+
+
+
+//do{(question= parseInt(readlineSync.question)("What's your favourite number?")))
+//if(question !=42){
+    //console.log("Are you sure?")
+//}
+//}while (question!=42);
+
+
+
+
+
 
 //while (question != 42) {
     //console.log(sure)

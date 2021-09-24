@@ -52,9 +52,9 @@
 //You will have to perform a search on Google to know how to only keep the integer part of a number.
 //const readlineSync = require("readline-sync");
 //let decimalNumberOne = parseInt(readlineSync.question("Give a number with a decimal"));
-//let decimalNumberTwo = parseInt(readlineSync.question("Give another number with a decimal"));
+//let decimalNumberTwo = parseFloat(readlineSync.question("Give another number with a decimal"));
 
-//console.log(Math.round(decimalNumberOne) * decimalNumberTwo);
+//console.log(decimalNumberOne * decimalNumberTwo);
 
 //Exercise 1.6
 
@@ -63,6 +63,6 @@
 //const readlineSync = require("readline-sync");
 //let integerOne = readlineSync.question("Can you give me one integer ?");
 //let integerTwo = readlineSync.question("Can you give me another integer ?");
-//console.log(Math.floor(integerOne) / Math.floor(integerTwo));
+//console.log(integerOne%integerTwo);
 
 

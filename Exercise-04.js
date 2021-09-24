@@ -54,9 +54,12 @@
 //Write a documentation for all the functions you created.
 
 
-let arr = [1, 2, 3, 4, 5];
+const arr = [1, 2, 3, 4, 5];
+const sum = 1+2+3+4+5;
+const arrLenght = arr.length;
+
 function average(arr){
-    
+    return sum/arrLenght;
 }
 
 
