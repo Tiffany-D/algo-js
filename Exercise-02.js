@@ -133,40 +133,40 @@
 
 //Make a program that ask the user to enter a number between 1 and 7. Depending on the number, display the day of the week that correspond. (1 => Monday, 2 => Tuesday, etc...)
 
-const readlineSync = require("readline-sync");
-let number = readlineSync.question("Write a number between 1 and 7");
+//const readlineSync = require("readline-sync");
+//let number = readlineSync.question("Write a number between 1 and 7");
 
 
-if (number === one) {
+//if (number === 1) {
     console.log(Monday)
-}
+//}
 
-if (number === two) {
-    console.log(Tuesday)
-}
+//if (number === 2) {
+    //console.log(Tuesday)
+//}
 
-if (number === three) {
-    console.log(Wednesday)
-}
+//if (number === 3) {
+    //console.log(Wednesday)
+//}
 
-if (number === four) {
-    console.log(Thursday)
-}
+//if (number === 4) {
+    //console.log(Thursday)
+//}
 
-if (number === five) {
-    console.log(Friday)
-}
+//if (number === 5) {
+    //console.log(Friday)
+//}
 
-if (number === six) {
-    console.log(Saturday)
-}
+//if (number === 6) {
+    //console.log(Saturday)
+//}
 
-if (number === seven) {
-    console.log(Sunday)
-}
+//if (number === 7) {
+    //console.log(Sunday)
+//}
 
 
-
+//Exercise-02 not finished
 
 
 
