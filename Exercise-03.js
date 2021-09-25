@@ -32,14 +32,14 @@
 //let mean = average/arr.length;
  //console.log(mean);
 
-let arrX = [100, 101, 102];
+//let arr = [100, 101, 102];
 
-let number =0;
-for(i=0; i<arr.lenght;i++){
-    number+= arr[i];
-}
-let mean= number/arr.lenght;
-console.log(mean);
+//let number =0;
+//for(i=0; i<arr.lenght;i++){
+    //number+= arr[i];
+//}
+//let median= number/arr.lenght;
+//console.log(median);
 
 //Exercise 3.3
 
