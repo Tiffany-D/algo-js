@@ -41,6 +41,38 @@
 
 //console.log(randomNumber);
 
+//Exercise 4.3
+
+//By reusing the function rand10() created in Exercise 2, write a function named multiRand(n) that returns an array of n numbers between 1 and 10. You should not modify anything in rand10() to achieve this.
+
+//Write a documentation for the multiRand(n) function.
+
+//Use that function to create a program that will ask the number of random numbers to generate then display that same number of random numbers.
+
+function rand10(){
+    
+    return parseInt(Math.random()*(10-1)+1);
+}
+
+//let randomNumber = parseInt(rand10());
+
+//console.log(randomNumber);
+
+const readlineSync = require("readline-sync");
+let userQuestionOne = readlineSync.question("Give me a number between 1 and 10");
+function multiRand(randomAmount) {
+   
+    let n = [] 
+    for (i = 0; i < randomAmount; i++){
+        n.push(rand10());
+
+    }
+    return n;
+    
+    }
+
+console.log(multiRand(userQuestionOne));
+
 //Exercise 4.4
 
 //Create a function named average(arr) that takes an array of numbers as argument and returns the average.
@@ -54,19 +86,22 @@
 //Write a documentation for all the functions you created.
 
 
+//cfr. E-4.2 + E-4.3
 
 
-
-//function average(arr=[1, 2, 3, 4, 5]){
-
-    //const num = 0, sum = 0, arrayL = arr.length;
-    //while (num < arrayL) {
-        //sum = sum + arr[num++];
-    //}
+function average(arr) {
    
- //return average(arr);
-//}
 
+
+}
+
+function min(arr) {
+    
+}
+
+function max(arr) {
+    
+}
 
 //Exercise 4.4 not finished
 
@@ -87,6 +122,10 @@
 
 //Note: You probably need to make some search on Google to learn the mathematical formula to do that. You will also probably need to search for useful functions in JavaScript to help you making complex mathematical formulas...
 
-let calcDistance = (a, b) => {
-    return ((1 - 2) ** 2) + ((1 - 2) ** 2);
-}
+//let calcDistance = (1, 2) => {
+    //return ((1 - 2) ** 2) + ((1 - 2) ** 2);
+//}
+
+
+
+

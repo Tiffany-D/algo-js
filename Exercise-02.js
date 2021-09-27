@@ -146,50 +146,47 @@
 //Make a program that ask the user to enter a number between 1 and 7. Depending on the number, display the day of the week that correspond. (1 => Monday, 2 => Tuesday, etc...)
 
 //const readlineSync = require("readline-sync");
-//let number = readlineSync.question("Write a number between 1 and 7");
+//const number = readlineSync.question("Write a number between 1 and 7");
 
 
-//if (number === 1) {
-    console.log(Monday)
-//}
-
-//if (number === 2) {
-    //console.log(Tuesday)
-//}
-
-//if (number === 3) {
-    //console.log(Wednesday)
-//}
-
-//if (number === 4) {
-    //console.log(Thursday)
-//}
-
-//if (number === 5) {
-    //console.log(Friday)
-//}
-
-//if (number === 6) {
-    //console.log(Saturday)
-//}
-
-//if (number === 7) {
-    //console.log(Sunday)
+//switch (number) {
+    //case 1:
+        //console.log("Monday");
+        //break;
+    //case 2:
+        //console.log("Tuesday");
+        //break;
+    //case 3:
+        //console.log("Wedenesday");
+        //break;
+    //case 4:
+        //console.log("Thursday");
+        //break;
+    //case 5:
+        //console.log("Friday");
+        //break;
+    //case 6:
+        //console.log("Saturday");
+        //break;
+    //case 7:
+        //console.log("Sunday");
+        //break;
 //}
 
 
-//Exercise-02 not finished
+//Exercise 2.7
 
+//const readlineSync = require("readline-sync");
 
+//let n = parseInt(readlineSync.question("Choose a number"));
+//let sum = 0;
 
+//for (let x = 0; x < n; x++){
+    //sum += parseInt(readlineSync.question("Choose a new number"));
+    ///sum =sum +parseInt(readlineSync.question("Choose a number"));
+//}
 
-
-
-
-
-
-
-
+//console.log(sum);
 
 
 
