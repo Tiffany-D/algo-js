@@ -12,6 +12,17 @@
 //arrOne.push(6, 7, 8, 9, 10, 11, 12, 13, 14, 15);
 //console.log(arrOne);
 
+
+//const sumArray = arr => {
+    //let sum = 0;
+    //arr.forEach(el => {
+        //sum += el;
+    //});
+    //return sum;
+//}
+
+//return sum;
+
 //Exercise 3.2
 
 //Write a program that will calculate the average value of a given array.

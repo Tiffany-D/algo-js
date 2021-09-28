@@ -34,12 +34,12 @@ askTvSerie();
 
 
 function randomizeCast(tvSerie) {
-      let serieTV = {
-        "show": `${nameOfTheShow}`,
-        "year": `${yearOfProduction}`,
-        "cast": `${castMembers}`,
-      };
-    console.log(serieTV[cast].random);
+  let serieTV = {
+    "show": `${nameOfTheShow}`,
+    "year": `${yearOfProduction}`,
+    "cast": `${castMembers}`,
+  };
+  console.log(tvSerie.serieTV[cast].random);
 }
 
 

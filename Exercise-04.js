@@ -49,29 +49,29 @@
 
 //Use that function to create a program that will ask the number of random numbers to generate then display that same number of random numbers.
 
-function rand10(){
+//function rand10(){
     
-    return parseInt(Math.random()*(10-1)+1);
-}
+    //return parseInt(Math.random()*(10-1)+1);
+//}
 
 //let randomNumber = parseInt(rand10());
 
 //console.log(randomNumber);
 
-const readlineSync = require("readline-sync");
-let userQuestionOne = readlineSync.question("Give me a number between 1 and 10");
-function multiRand(randomAmount) {
+//const readlineSync = require("readline-sync");
+//let userQuestionOne = readlineSync.question("Give me a number between 1 and 10");
+//function multiRand(randomAmount) {
    
-    let n = [] 
-    for (i = 0; i < randomAmount; i++){
-        n.push(rand10());
+    //let n = [] 
+    //for (i = 0; i < randomAmount; i++){
+        //n.push(rand10());
 
-    }
-    return n;
+    //}
+    //return n;
     
-    }
+    //}
 
-console.log(multiRand(userQuestionOne));
+//console.log(multiRand(userQuestionOne));
 
 //Exercise 4.4
 
@@ -89,21 +89,25 @@ console.log(multiRand(userQuestionOne));
 //cfr. E-4.2 + E-4.3
 
 
-function average(arr) {
-   
 
+//let calcul = multiRand(userQuestionOne);
 
-}
-
-function min(arr) {
+//let average =0;
+//function calculateAverage(arr){
+//for(i=0; i< arr.length; i++){
     
-}
+    //average += arr[i];  
+//}
+ 
+    //return average / arr.length;
+//}
+//console.log(calcul);
+//console.log(calculateAverage(calcul));
 
-function max(arr) {
-    
-}
-
-//Exercise 4.4 not finished
+//minValue= Math.min(...calcul);
+//maxValue = Math.max(...calcul);
+//console.log(minValue);
+//console.log(maxValue);
 
 
 //Exercise 4.5
@@ -122,9 +126,9 @@ function max(arr) {
 
 //Note: You probably need to make some search on Google to learn the mathematical formula to do that. You will also probably need to search for useful functions in JavaScript to help you making complex mathematical formulas...
 
-//let calcDistance = (1, 2) => {
-    //return ((1 - 2) ** 2) + ((1 - 2) ** 2);
-//}
+let calcDistance = (1, 2) => {
+    return ((1 - 2) ** 2) + ((1 - 2) ** 2);
+}
 
 
 
