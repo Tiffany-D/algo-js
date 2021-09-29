@@ -126,10 +126,18 @@
 
 //Note: You probably need to make some search on Google to learn the mathematical formula to do that. You will also probably need to search for useful functions in JavaScript to help you making complex mathematical formulas...
 
-let calcDistance = (1, 2) => {
-    return ((1 - 2) ** 2) + ((1 - 2) ** 2);
+function calcDistance (){
+    let x1 = 1;
+    let x2 = 2;
+    let y1 = 1;
+    let y2 = 2;
+
+    let distance = Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
+    console.log(distance);
+    
+
 }
 
-
+calcDistance();
 
 

@@ -33,14 +33,14 @@ askTvSerie();
 //Create a program that will use randomizeCast(tvSerie) and askTvSerie() to ask the user about a TV serie then display a randomized list of the previous cast that will form the new cast of your next serie.
 
 
-function randomizeCast(tvSerie) {
-  let serieTV = {
-    "show": `${nameOfTheShow}`,
-    "year": `${yearOfProduction}`,
-    "cast": `${castMembers}`,
-  };
-  console.log(tvSerie.serieTV[cast].random);
-}
+//function randomizeCast(tvSerie) {
+  //let serieTV = {
+    //"show": `${nameOfTheShow}`,
+    //"year": `${yearOfProduction}`,
+    //"cast": `${castMembers}`,
+  //};
+ //console.log(tvSerie.serieTV[cast].random);
+//}
+ 
 
-
-randomizeCast();
+//randomizeCast();
