@@ -20,8 +20,12 @@ function askTvSerie() {
         "year": `${yearOfProduction}`,
         "cast": `${castMembers}`,
     };
-    console.log(serieTV); 
-}
+  console.log(serieTV);
+  
+
+  }
+     
+
 
 askTvSerie();
 
